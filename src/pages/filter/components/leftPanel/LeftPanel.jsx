@@ -22,7 +22,7 @@ import {
   getLanguages,
   getMovieGenres,
   getWatchProvider,
-} from '../../../../components/api/api';
+} from '../../../../helper/api';
 import Popper from '../../../../components/popper/Popper';
 import CheckboxWrapper from '../checkboxWrapper/CheckboxWrapper';
 import removeIcon from '../../../../Images/remove_icon.png';
@@ -30,7 +30,7 @@ import {
   ALL_SORTING_ORDER,
   AVAILABILITIES,
   RELEASE_TYPE,
-} from '../../../../constant';
+} from '../../../../helper/constant';
 
 let timeout;
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './checkboxWrapper.css';
-import toggleItemInArray from '../../../../helper';
+import toggleItemInArray from '../../../../helper/helper';
 
 function CheckboxWrapper({ items, selectedItems, setSelectedItems }) {
   return (

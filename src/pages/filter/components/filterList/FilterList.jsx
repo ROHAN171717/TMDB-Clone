@@ -1,6 +1,6 @@
 import React from 'react';
 import './filterList.css';
-import toggleItemInArray from '../../../../helper';
+import toggleItemInArray from '../../../../helper/helper';
 
 function FilterList({ items, selectedItems, setSelectedItems }) {
   return (

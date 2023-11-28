@@ -1,7 +1,7 @@
 import React from 'react';
 import './recommendation.css';
 import { useParams } from 'react-router-dom';
-import { dateFormatter } from '../../helper';
+import { dateFormatter } from '../../helper/helper';
 
 function RecommendationCard({ data }) {
   const params = useParams();

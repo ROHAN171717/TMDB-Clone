@@ -1,7 +1,7 @@
 import React from 'react';
 import './watchProvider.css';
 import { Tooltip } from '@mui/material';
-import toggleItemInArray from '../../helper';
+import toggleItemInArray from '../../helper/helper';
 
 function WatchProvider({ data, selectedItems, setSelectedItems }) {
   return (

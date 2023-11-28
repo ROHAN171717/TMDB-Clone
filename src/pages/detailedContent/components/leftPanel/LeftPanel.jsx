@@ -2,13 +2,9 @@ import React, { useEffect, useState } from 'react';
 import './leftPanel.css';
 import { useParams } from 'react-router-dom';
 import { Avatar } from '@mui/material';
-import {
-  getCastData,
-  getRecommendations,
-  getReviews,
-} from '../../../../components/api/api';
 import Scroller from '../../../../components/scroller/Scroller';
-import { formateDateString } from '../../../../helper';
+import { getCastData, getRecommendations, getReviews } from '../../../../helper/api';
+import { formateDateString } from '../../../../helper/helper';
 
 function LeftPanel({ movieDetail }) {
   const params = useParams();

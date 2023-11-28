@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import SectionTitle from '../../../../components/sectionTitle/SectionTitle';
 import './trending.css';
-import { getTrendingMovies } from '../../../../components/api/api';
 import Scroller from '../../../../components/scroller/Scroller';
-import { formateDateString } from '../../../../helper';
+import { getTrendingMovies } from '../../../../helper/api';
+import { formateDateString } from '../../../../helper/helper';
 
 const arr = [
   { id: 1, name: 'Today', value: 'day' },

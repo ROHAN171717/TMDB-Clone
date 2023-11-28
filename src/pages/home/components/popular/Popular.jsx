@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './popular.css';
-import { getPopularMovies } from '../../../../components/api/api';
 import SectionTitle from '../../../../components/sectionTitle/SectionTitle';
 import Scroller from '../../../../components/scroller/Scroller';
-import { formateDateString } from '../../../../helper';
+import { getPopularMovies } from '../../../../helper/api';
+import { formateDateString } from '../../../../helper/helper';
 
 const arr = [
   {

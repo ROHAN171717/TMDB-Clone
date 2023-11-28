@@ -5,10 +5,10 @@ import CircularProgressBar from '../../components/circularProgressBar/CircularPr
 import IconToolTip from './components/iconTooltip/IconToolTip';
 import LeftPanel from './components/leftPanel/LeftPanel';
 import RightPanel from './components/rightPanel/RightPanel';
-import { getMovieDetailById } from '../../components/api/api';
-import { dateFormatter } from '../../helper';
 import TrailerModel from './components/trailerModel/TrailerModel';
 import Popper from '../../components/popper/Popper';
+import { dateFormatter } from '../../helper/helper';
+import { getMovieDetailById } from '../../helper/api';
 
 function DetailedContent() {
   const [movieDetail, setMovieDetail] = useState({});

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './rightPanel.css';
 import { useParams } from 'react-router-dom';
-import { getKeywordsById } from '../../../../components/api/api';
+import { getKeywordsById } from '../../../../helper/api';
 
 function RightPanel({ movieDetail }) {
   const params = useParams();

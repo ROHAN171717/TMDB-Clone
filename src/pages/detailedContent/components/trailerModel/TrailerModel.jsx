@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { getVideosById } from '../../../../components/api/api';
 import removeIcon from '../../../../Images/remove_icon.png';
 import './trailerModel.css';
+import { getVideosById } from '../../../../helper/api';
 
 function TrailerModel({ setIsOpen }) {
   const [trailer, setTrailer] = useState([]);
